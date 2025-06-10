@@ -1,0 +1,60 @@
+
+    <!---Question 5: Hotel Booking Form
+Build a form to book a hotel room:
+Name , Check-in Date, Check-out Date, Number of Guests (number field) , Room Type (select dropdown: Standard, Deluxe, Suite), Additional Requirements (textarea),
+Submit button
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <h1>
+            Hotel Booking Form
+        </h1>
+        <body>
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            Enter the name 
+                        </td>
+                        <td>  <input type="text" name="name" placeholder="Enter your name"  required></td>
+                    </tr>
+                    <tr>
+                    <td> check-in date</td>
+                 
+                    <td><input type="date" name="checkindate" placeholder="Enter your name"  required ></td>
+                    </tr>
+                    <tr>
+                    <td> check-out date</td>
+                    <td><input type="date" name="checkoutdate"   required ></td>
+</tr>
+<tr>
+    <td> Number of Guest</td>
+    <td><input type= "number" min="1" name="numberofguest" placeholder="Enter number"  required> </td>
+</tr>
+<tr>
+    <td>
+        Room Type
+    </td>
+    <td> 
+        <select id="room" name="room" required>
+            <option value ="standard">standard</option>
+        <option value ="standard">Deluxe</option>
+        <option value ="standard">suite</option>
+        </select>
+     </td>
+    </tr>
+
+<tr>
+
+   <td> <button type="submit">submit</button></td> 
+
+</tr>
+                </table>
+
+            </form>
+        </body>
+    </head>
+</html>
